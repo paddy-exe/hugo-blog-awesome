@@ -3,6 +3,12 @@
     {{- hugo.Generator }}
     <script async src="https://eu.umami.is/script.js" data-website-id="5e71174a-7f03-4d2c-b04f-adfa793aad77"></script>
 
+    {{/* Open Graph tags */}}
+    {{ template "_internal/opengraph.html" . }}
+
+    {{/* Twitter Card tags */}}
+    {{ template "_internal/twitter_cards.html" . }}
+
     {{/* Canonical link, RSS */}}
 
     <link rel="canonical" href="{{ .Permalink }}">
