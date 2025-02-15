@@ -1,5 +1,98 @@
 # Changelog
 
+## [1.19.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.18.0...v1.19.0) (2024-12-14)
+
+
+### :sparkles: Features
+
+* add threads social media icon ([#255](https://github.com/hugo-sid/hugo-blog-awesome/issues/255)) ([090b3e8](https://github.com/hugo-sid/hugo-blog-awesome/commit/090b3e825c7f343f6297b1897d39ff039cdbf70d))
+
+
+### :bug: Bug Fixes
+
+* corrected French translations in Markdown guide and i18n file ([#263](https://github.com/hugo-sid/hugo-blog-awesome/issues/263)) ([42095be](https://github.com/hugo-sid/hugo-blog-awesome/commit/42095be803c344e9e774f632b929e8e59944d688))
+
+
+### :hammer: Housekeeping
+
+* add `Multilingual` tag to `theme.toml` [skip ci] ([ac5a2ab](https://github.com/hugo-sid/hugo-blog-awesome/commit/ac5a2ab1eb4b939d1227ed81f0d1c74e4e4b7a4a))
+* **deps:** update codelytv/pr-size-labeler action to v1.10.2 ([#259](https://github.com/hugo-sid/hugo-blog-awesome/issues/259)) ([2391188](https://github.com/hugo-sid/hugo-blog-awesome/commit/239118849cac93a0f21b8e21caea453234a1df12))
+* **readme:** add website to readme ([#261](https://github.com/hugo-sid/hugo-blog-awesome/issues/261)) ([2ea9420](https://github.com/hugo-sid/hugo-blog-awesome/commit/2ea9420ec896e37db98c1d49d392c6eabe0e06ac))
+* update devcontainer.json ([#264](https://github.com/hugo-sid/hugo-blog-awesome/issues/264)) ([19cf68f](https://github.com/hugo-sid/hugo-blog-awesome/commit/19cf68f5c47d498432d5f01c8bcf56b2321cfae4))
+
+
+### :memo: Documentation
+
+* add missing `chdir` commands in setup section ([#247](https://github.com/hugo-sid/hugo-blog-awesome/issues/247)) ([#250](https://github.com/hugo-sid/hugo-blog-awesome/issues/250)) ([e35e758](https://github.com/hugo-sid/hugo-blog-awesome/commit/e35e75800f96cc00c8f0923618eec5f96711b8f7))
+
+## [1.18.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.17.0...v1.18.0) (2024-10-28)
+
+
+### :sparkles: Features
+
+* **i18n:** add French translation ([#241](https://github.com/hugo-sid/hugo-blog-awesome/issues/241)) ([f26d7a2](https://github.com/hugo-sid/hugo-blog-awesome/commit/f26d7a228e9fa4dcd8d6c7c4f8a53a1a8c33f73b))
+* support user-supplied head partial ([#244](https://github.com/hugo-sid/hugo-blog-awesome/issues/244)) ([6b0e47a](https://github.com/hugo-sid/hugo-blog-awesome/commit/6b0e47ad2c053b8d8b40e83f74ad7387641ca8a0))
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/checkout action to v4.2.2 ([#243](https://github.com/hugo-sid/hugo-blog-awesome/issues/243)) ([21b814b](https://github.com/hugo-sid/hugo-blog-awesome/commit/21b814bb08c22f033f22dd021a392af7b0a6b6a7))
+* **deps:** update actions/upload-artifact action to v4.4.3 ([#242](https://github.com/hugo-sid/hugo-blog-awesome/issues/242)) ([2dfc5c9](https://github.com/hugo-sid/hugo-blog-awesome/commit/2dfc5c9ab79b0a16f31620a4d47f9404384a3f11))
+
+## [1.17.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.1...v1.17.0) (2024-09-26)
+
+
+### :sparkles: Features
+
+* add svg author image support ([#214](https://github.com/hugo-sid/hugo-blog-awesome/issues/214)) ([20c3fe4](https://github.com/hugo-sid/hugo-blog-awesome/commit/20c3fe4a1c94cc2d42de5af4ca34a579405374d8))
+
+
+### :bug: Bug Fixes
+
+* date on post is not following dateFormat  ([#234](https://github.com/hugo-sid/hugo-blog-awesome/issues/234)) ([c95d246](https://github.com/hugo-sid/hugo-blog-awesome/commit/c95d24626f139ec649f565eaa1d5ba0768c6f1a7))
+
+
+### :hammer: Housekeeping
+
+* add pt-br translation ([#233](https://github.com/hugo-sid/hugo-blog-awesome/issues/233)) ([06317c8](https://github.com/hugo-sid/hugo-blog-awesome/commit/06317c8eb0ff545a2a6199faf4e12575a73793da))
+* **deps:** update actions/checkout action to v4.2.0 ([#239](https://github.com/hugo-sid/hugo-blog-awesome/issues/239)) ([bf9481a](https://github.com/hugo-sid/hugo-blog-awesome/commit/bf9481a50cf6629aab1a4884bb224b0cadf62b27))
+* **deps:** update codelytv/pr-size-labeler action to v1.10.1 ([#232](https://github.com/hugo-sid/hugo-blog-awesome/issues/232)) ([588ad28](https://github.com/hugo-sid/hugo-blog-awesome/commit/588ad28538b4e86cba7ccb8db1c5040a87b23323))
+* **deps:** update github/codeql-action action to v3.26.8 ([#235](https://github.com/hugo-sid/hugo-blog-awesome/issues/235)) ([adecf04](https://github.com/hugo-sid/hugo-blog-awesome/commit/adecf041e00080b286bc49bf2919ddc22c82d066))
+* **deps:** update github/codeql-action action to v3.26.9 ([#238](https://github.com/hugo-sid/hugo-blog-awesome/issues/238)) ([e363f48](https://github.com/hugo-sid/hugo-blog-awesome/commit/e363f48fcc0c688374677075772cd21f46aedb28))
+* **deps:** update ossf/scorecard-action action to v2.4.0 ([#213](https://github.com/hugo-sid/hugo-blog-awesome/issues/213)) ([3b3af04](https://github.com/hugo-sid/hugo-blog-awesome/commit/3b3af04a61a000b0958814c997295b84b6602eaf))
+* **readme:** add journeytolunar.com ([#237](https://github.com/hugo-sid/hugo-blog-awesome/issues/237)) ([34273ab](https://github.com/hugo-sid/hugo-blog-awesome/commit/34273aba1de8c9bf012cab7e2a305629b51ba1ff))
+
+## [1.16.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.0...v1.16.1) (2024-09-01)
+
+
+### :bug: Bug Fixes
+
+* style of long inline code ([#228](https://github.com/hugo-sid/hugo-blog-awesome/issues/228)) ([86582d5](https://github.com/hugo-sid/hugo-blog-awesome/commit/86582d5c9da6d9d25afb96955a9a51fa6afa9eb0))
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/upload-artifact action to v4.4.0 ([#229](https://github.com/hugo-sid/hugo-blog-awesome/issues/229)) ([53fcc2f](https://github.com/hugo-sid/hugo-blog-awesome/commit/53fcc2f589eb57a1ec9a8f18fd908d655cf3ac58))
+* **deps:** update github/codeql-action action to v3.26.6 ([#221](https://github.com/hugo-sid/hugo-blog-awesome/issues/221)) ([ed34ead](https://github.com/hugo-sid/hugo-blog-awesome/commit/ed34eadd739cd777b86cd2951754a90762ec81e4))
+
+## [1.16.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.15.0...v1.16.0) (2024-08-29)
+
+
+### :sparkles: Features
+
+* add Social Previews ([#216](https://github.com/hugo-sid/hugo-blog-awesome/issues/216)) ([51636b7](https://github.com/hugo-sid/hugo-blog-awesome/commit/51636b72d93dd01b73e65442d22c4fd06fff991a))
+* enable posts to be starred ([#223](https://github.com/hugo-sid/hugo-blog-awesome/issues/223)) ([48ffc30](https://github.com/hugo-sid/hugo-blog-awesome/commit/48ffc30faec49e701352c40432b510720f68258c))
+
+
+### :hammer: Housekeeping
+
+* add Bluesky and Signal icons with README update ([#210](https://github.com/hugo-sid/hugo-blog-awesome/issues/210)) ([8aae27c](https://github.com/hugo-sid/hugo-blog-awesome/commit/8aae27c08708a9134c552429f690bfb036c944d6))
+* add meanii.dev to the list of websites using this theme ([#218](https://github.com/hugo-sid/hugo-blog-awesome/issues/218)) ([a1bb7cf](https://github.com/hugo-sid/hugo-blog-awesome/commit/a1bb7cf8bbff3a81a8429fe48ae83c3ae80cfcc3))
+* **deps:** update actions/upload-artifact action to v4.3.6 ([#219](https://github.com/hugo-sid/hugo-blog-awesome/issues/219)) ([26e6c26](https://github.com/hugo-sid/hugo-blog-awesome/commit/26e6c2634c386dd46003d33de4d2d7cf9438cfac))
+* **deps:** update eps1lon/actions-label-merge-conflict digest to 657e437 ([#206](https://github.com/hugo-sid/hugo-blog-awesome/issues/206)) ([36dbc0f](https://github.com/hugo-sid/hugo-blog-awesome/commit/36dbc0f392d8bd4f76ae3ded8524fcddab85d289))
+* **deps:** update github/codeql-action action to v3.25.13 ([#209](https://github.com/hugo-sid/hugo-blog-awesome/issues/209)) ([d79502e](https://github.com/hugo-sid/hugo-blog-awesome/commit/d79502e933438c404c28fd5875e3ac9b9c319eaf))
+* **deps:** update github/codeql-action action to v3.26.4 ([#212](https://github.com/hugo-sid/hugo-blog-awesome/issues/212)) ([4ca50f8](https://github.com/hugo-sid/hugo-blog-awesome/commit/4ca50f87cadc87e4b980a6a3edbad042309cfebc))
+
 ## [1.15.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.14.0...v1.15.0) (2024-07-17)
 
 

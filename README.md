@@ -1,10 +1,10 @@
-<div align=center> 
+<div align=center>
  <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-light.svg">
   <img alt="Hugo blog awesome logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
 </picture>
- 
+
 </div>
 <h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
 
@@ -57,6 +57,7 @@ First create a new Hugo site by running the following command:
 
 Initialize your new Hugo site as hugo module by running the following command:
 
+    cd myblog
     hugo mod init github.com/USER/REPO
 
 Afterwards, run this command to add hugo-blog-awesome as module to your site:
@@ -86,6 +87,7 @@ Then, clone this repository into the `themes` directory of your new site:
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
+    cd themes/hugo-blog-awesome/exampleSite
     hugo server --themesDir ../..
 
 To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
@@ -196,6 +198,7 @@ url = "index.xml"
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
+| `threads`       | threads.net                     |
 | `tiktok`        | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
 | `twitter` (the blue bird logo)       | twitter.com                     |
@@ -219,6 +222,11 @@ To enable go to top button on blog posts, set `goToTop` to `true` in `hugo.toml`
 [params]
   goToTop = true
 ```
+
+### Add custom HTML to `<head>` section
+
+To add custom HTML to the `<head>` section, create a partial named `custom-head.html`.
+The contents of this partial will be inserted at the end of the `<head>` section.
 
 ## Content
 
@@ -259,8 +267,9 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://mrizkimaulidan.vercel.app/>
 - <https://www.yukizr.com/>
 - <http://liamdalg.co.uk/>
-- <http://pratham-mishra.in/>
+- <https://codewithzichen.bine.me/>
 - <https://chriscodes.net/>
+- <https://journeytolunar.com/>
 - <https://ruiper.es/>
 - <https://www.magicplace.de/>
 - <https://bskdany.com/>
@@ -270,6 +279,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://jmbhughes.com/>
 - <https://www.boniface.me/>
 - <https://meanii.dev/>
+- <https://unixsec.io/>
 
 ## Support
 
